@@ -1,5 +1,8 @@
 # 스택
 
+- 자세한 풀이는 노션 참고
+[Notion](https://xxjo053.notion.site/xxjo053/de21b1d40087438b9126682f6bc5f8ba)
+
 | 사이트       | 난이도  | 문제번호 | 문제이름 |
 | :---------: | :-----: | :---: | :---------: |
 | 백준 | silver4 | 10828 | <a href="https://www.acmicpc.net/problem/10828" target="_blank">스택</a> |
