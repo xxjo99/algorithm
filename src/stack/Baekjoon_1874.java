@@ -8,42 +8,37 @@ import java.util.Stack;
 public class Baekjoon_1874 {
 
     public static void main(String[] args) throws IOException {
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        while (true) {
-            Stack<Character> stk = new Stack<>();
+        Stack<Integer> stk = new Stack<>();
+        int n = Integer.parseInt(br.readLine());
 
-            String s = br.readLine();
-            if (s.equals(".")) {
-                break;
-            }
+        int start = 0;
 
-            for (int i = 0; i < s.length(); i++) {
-                char c = s.charAt(i);
+        StringBuilder sb = new StringBuilder();
+        while (n-- > 0) {
 
-                if (c == '(' || c == '[') {
-                    stk.push(c);
-                } else if (c == ')' || c == ']') {
+            int k = Integer.parseInt(br.readLine());
 
-                    if (stk.isEmpty() || (stk.peek() == '(' && c == ']') || (stk.peek() == '[' && c == ')')) {
-                        stk.push(c);
-                        break;
-                    }
+            if (k > start) {
 
-                    stk.pop();
+                for (int i = start + 1; i <= k; i++) {
+                    stk.push(i);
+                    sb.append('+').append('\n');
                 }
-
+                start = k;
+            } else if (stk.peek() != k) {
+                System.out.println("NO");
+                return;
             }
 
-            if (!stk.isEmpty()) {
-                System.out.println("no");
-            }
-            else {
-                System.out.println("yes");
-            }
+            stk.pop();
+            sb.append('-').append('\n');
 
         }
 
+        System.out.println(sb);
     }
 
 }
