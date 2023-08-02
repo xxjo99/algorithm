@@ -13,7 +13,7 @@
 | 프로그래머스 | level1 | - | <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12906" target="_blank">같은 숫자는 싫어</a> | 23-08-02 |
 | 프로그래머스 | level2 | - | <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42586" target="_blank">기능개발</a> | 23-08-02 |
 | 프로그래머스 | level2 | - | <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12909" target="_blank">올바른 괄호</a> | 23-08-02 |
-| 프로그래머스 | level2 | - | <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42587" target="_blank">프로세스</a> | 23-08-02 |
-| 프로그래머스 | level2 | - | <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42583" target="_blank">다리를 지나는 트럭</a> | 23-08-02 |
-| 프로그래머스 | level2 | - | <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42584" target="_blank">주식가격</a> | 23-08-02 |
+| 프로그래머스 | level2 | - | <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42587" target="_blank">프로세스</a> | 23-08-03 |
+| 프로그래머스 | level2 | - | <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42583" target="_blank">다리를 지나는 트럭</a> | 23-08-03 |
+| 프로그래머스 | level2 | - | <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42584" target="_blank">주식가격</a> | 23-08-03 |
  
