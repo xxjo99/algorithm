@@ -3,7 +3,7 @@ package stack;
 import java.util.ArrayList;
 import java.util.List;
 
-public class programmers_12906 {
+public class programmers_stack_1 {
 
     public int[] solution(int[] arr) {
         List<Integer> answerList = new ArrayList<>();
