@@ -1,36 +1,24 @@
 package stack;
 
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.Stack;
 
 public class programmers_stack_4 {
 
-    public int solution(int[] priorities, int location) {
-        int answer = 0;
+    public int[] solution(int[] prices) {
+        int[] answer = new int[prices.length];
+        Stack<Integer> stack = new Stack<>();
 
-        Queue<int[]> queue = new LinkedList<>();
-        for (int i = 0; i < priorities.length; i++) {
-            queue.add(new int[] {i, priorities[i]});
+        for (int i = 0; i < prices.length; i++) {
+            while (!stack.isEmpty() && prices[i] < prices[stack.peek()]) {
+                answer[stack.peek()] = i - stack.peek();
+                stack.pop();
+            }
+            stack.push(i);
         }
 
-        while (!queue.isEmpty()) {
-            int[] now = queue.poll();
-            boolean able = true;
-
-            for (int[] q : queue) {
-                if (q[1] > now[1]) {
-                    able = false;
-                }
-            }
-
-            if (able) {
-                answer++;
-                if (now[0] == location) {
-                    break;
-                }
-            } else {
-                queue.add(now);
-            }
+        while (!stack.isEmpty()) {
+            answer[stack.peek()] = prices.length - stack.peek() - 1;
+            stack.pop();
         }
 
         return answer;

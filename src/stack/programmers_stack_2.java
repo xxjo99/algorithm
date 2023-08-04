@@ -1,46 +1,38 @@
 package stack;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.Stack;
 
 public class programmers_stack_2 {
 
-    public int[] solution(int[] progresses, int[] speeds) {
+    public static boolean solution(String s) {
+        boolean answer;
 
-        ArrayList<Integer> list = new ArrayList<>();
-        Queue<Integer> queue = new LinkedList<>();
+        Stack<Character> stk = new Stack<>();
 
-        for (int i = 0; i < progresses.length; i++) {
-            if ((100 - progresses[i] ) % speeds[i] == 0)  {
-                queue.add((100 - progresses[i]) / speeds[i]);
-            } else {
-                queue.add((100 - progresses[i]) / speeds[i] + 1);
+        if (s.charAt(0) == ')') {
+            stk.push(')');
+        } else {
+            for (int i = 0; i < s.length(); i++) {
+                char c = s.charAt(i);
+
+                if (c == '(') {
+                    stk.push('(');
+                } else {
+                    if (stk.empty()) {
+                        stk.push(')');
+                        break;
+                    } else {
+                        stk.pop();
+                    }
+                }
             }
         }
 
-        int x = queue.poll();
-        int count = 1;
-
-        while (!queue.isEmpty()) {
-            if (x >= queue.peek()) {
-                count++;
-                queue.poll();
-            } else {
-                list.add(count);
-                count = 1;
-                x = queue.poll();
-            }
-        }
-
-        list.add(count);
-
-        int[] answer = new int[list.size()];
-        for (int i = 0; i < answer.length; i++) {
-            answer[i] = list.get(i);
-        }
-
+        answer = stk.empty();
         return answer;
     }
 
+    public static void main(String[] args) {
+        System.out.println(solution("()()"));
+    }
 }
