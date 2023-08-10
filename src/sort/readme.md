@@ -14,4 +14,7 @@
 | 프로그래머스 | level1 | - | <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42748" target="_blank">K번째 수</a> | 23-08-09 |
 | 프로그래머스 | level2 | - | <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42746" target="_blank">가장 큰 수</a> | 23-08-09 |
 | 프로그래머스 | level2 | - | <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42747" target="_blank">H-Index</a> | 23-08-09 |
+| 백준 | silver1 | 1931 | <a href="https://www.acmicpc.net/problem/1931" target="_blank">회의실 배정</a> | 23-08-10 |
+| 백준 | silver3 | 2108 | <a href="https://www.acmicpc.net/problem/2108" target="_blank">통계학</a> | 23-08-10 |
+| 백준 | silver2 | 18870 | <a href="https://www.acmicpc.net/problem/18870" target="_blank">좌표압축</a> | 23-08-10 |
  
