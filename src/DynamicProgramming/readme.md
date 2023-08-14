@@ -14,5 +14,5 @@
 | 백준 | silver3 | 2579 | <a href="https://www.acmicpc.net/problem/2579" target="_blank">계단 오르기</a> | 23-08-14 |
 | 백준 | silver3 | 1463 | <a href="https://www.acmicpc.net/problem/1463" target="_blank">1로 만들기</a> | 23-08-14 |
 | 백준 | silver1 | 10844 | <a href="https://www.acmicpc.net/problem/10844" target="_blank">쉬운 계단 수</a> | 23-08-14 |
-| 백준 | silver2 | 11053 | <a href="https://www.acmicpc.net/problem/11053" target="_blank">가장 긴 증가하는 부분 수열</a> | 23-08-15 |
-| 백준 | silver1 | 2156 | <a href="https://www.acmicpc.net/problem/2156" target="_blank">포도주 시식</a> | 23-08-15 |
+| 백준 | silver2 | 11053 | <a href="https://www.acmicpc.net/problem/11053" target="_blank">가장 긴 증가하는 부분 수열</a> | 23-08-14 |
+| 백준 | silver1 | 2156 | <a href="https://www.acmicpc.net/problem/2156" target="_blank">포도주 시식</a> | 23-08-14 |
