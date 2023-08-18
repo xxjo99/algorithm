@@ -11,6 +11,7 @@
 | 백준 | silver2 | 24445 | <a href="https://www.acmicpc.net/problem/24445" target="_blank">알고리즘 수업 - 너비 우선 탐색 2</a> | 23-08-15 |
 | 백준 | silver2 | 2606 | <a href="https://www.acmicpc.net/problem/2606" target="_blank">바이러스</a> | 23-08-15 |
 | 백준 | silver2 | 1260 | <a href="https://www.acmicpc.net/problem/1260" target="_blank">DFS와 BFS</a> | 23-08-16 |
-| 백준 | silver2 | 1260 | <a href="https://www.acmicpc.net/problem/2667" target="_blank">단지번호붙이기</a> | 23-08-17 |
-| 백준 | silver2 | 1260 | <a href="https://www.acmicpc.net/problem/1012" target="_blank">유기농 배추</a> | 23-08-17 |
+| 백준 | silver1 | 2667 | <a href="https://www.acmicpc.net/problem/2667" target="_blank">단지번호붙이기</a> | 23-08-18 |
+| 백준 | silver2 | 1012 | <a href="https://www.acmicpc.net/problem/1012" target="_blank">유기농 배추</a> | 23-08-18 |
+| 백준 | silver2 | 2178 | <a href="https://www.acmicpc.net/problem/2178" target="_blank">미로 탐색</a> | 23-08-18 |
  
