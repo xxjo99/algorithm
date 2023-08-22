@@ -7,5 +7,7 @@
 |:---:|:-------:|:-----:|:------------------------------------------------------------------------:|:--------:|
 | 백준  | silver4 | 11047 | <a href="https://www.acmicpc.net/problem/11047" target="_blank">동전 0</a> | 23-08-21 |
 | 백준  | silver3 | 13305 | <a href="https://www.acmicpc.net/problem/13305" target="_blank">주유소</a>  | 23-08-21 |
+| 백준  | silver4 | 2839  | <a href="https://www.acmicpc.net/problem/2839" target="_blank">설탕 배달</a> | 23-08-22 |
+| 백준  | silver4 | 1026  |  <a href="https://www.acmicpc.net/problem/1026" target="_blank">보물</a>   | 23-08-22 |
 
  
